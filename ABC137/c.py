@@ -13,5 +13,5 @@ for key in s_list:
 for key in s_dict:
     ans += math.comb(s_dict[key], 2)
 
-#print(s_dict)
+#print(s_dict)a
 print(ans)
