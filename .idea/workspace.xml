@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6dbb19b2-cc88-4a2f-b48e-87d0d6b1489a" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/ABC139/d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC139/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC139/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC137/c.py" beforeDir="false" afterPath="$PROJECT_DIR$/ABC137/c.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ABC137/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ABC137/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC143/d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC143/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC143/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +37,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/sizum/Desktop/programming/Atcoder_ABC/ABC139/input.txt"
+    "last_opened_file_path": "C:/Users/sizum/Desktop/programming/Atcoder_ABC/ABC143/input.txt"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -56,17 +55,17 @@
       </envs>
       <option name="SDK_HOME" value="C:\Users\sizum\anaconda3\python.exe" />
       <option name="SDK_NAME" value="Python 3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ABC139" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ABC143" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ABC139/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ABC143/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\sizum\Desktop\programming\Atcoder_ABC\ABC139\input.txt" />
+      <option name="INPUT_FILE" value="C:\Users\sizum\Desktop\programming\Atcoder_ABC\ABC143\input.txt" />
       <method v="2" />
     </configuration>
   </component>
