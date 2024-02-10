@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbb19b2-cc88-4a2f-b48e-87d0d6b1489a" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/ABC143/d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC143/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ABC143/main.py" afterDir="false" />
+    <list default="true" id="f020bb58-bec3-4cd9-b9ff-0a45dfe71990" name="変更" comment="">
+      <change afterPath="$PROJECT_DIR$/ABC340/a.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC340/b.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC340/c.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC340/d.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC340/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ABC340/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,15 +36,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/sizum/Desktop/programming/Atcoder_ABC/ABC143/input.txt"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sizum/Desktop/programming/Atcoder_ABC/ABC143/input.txt&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\sizum\Desktop\programming\Atcoder_ABC" />
     </key>
   </component>
@@ -53,19 +57,18 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\sizum\anaconda3\python.exe" />
-      <option name="SDK_NAME" value="Python 3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ABC143" />
-      <option name="IS_MODULE_SDK" value="false" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ABC340" />
+      <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ABC143/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ABC340/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="true" />
-      <option name="INPUT_FILE" value="C:\Users\sizum\Desktop\programming\Atcoder_ABC\ABC143\input.txt" />
+      <option name="INPUT_FILE" value="$PROJECT_DIR$/ABC340/input.txt" />
       <method v="2" />
     </configuration>
   </component>
@@ -79,5 +82,16 @@
       <updated>1706430940374</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
