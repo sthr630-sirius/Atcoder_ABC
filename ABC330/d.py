@@ -3,6 +3,8 @@ row = [0]*n
 column = [0]*n
 field = [list(input()) for _ in range(n)]
 
+ans = 0
+
 for i in range(n):
     for j in range(n):
         if field[i][j] == "o":
@@ -13,8 +15,15 @@ for j in range(n):
         if field[i][j] == "o":
             column[j] += 1
 
-print(row)
-print(column)
+#print(row)
+#print(column)
+
+for i in range(n):
+    for j in range(n):
+        if field[i][j] == "o":
+            ans += (row[i]-1) * (column[j]-1)
+
+print(ans)
 
 """
 TLE code
