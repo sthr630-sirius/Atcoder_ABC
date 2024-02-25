@@ -15,7 +15,6 @@ for i in range(1, h):
             for k in range(n):
                 #print(f"k:{k}")
                 #print(now)
-
                 if t[k] == "L":
                     now[1] -= 1
                 elif t[k] == "R":
