@@ -1,4 +1,45 @@
 t = list(input())
+n = int(input())
+w = len(t)
+inf = 9999999999999
+
+"""
+dp[i][j]:袋iまで確認し、tのj番目の文字まで一致させるのに必要な最小コスト
+"""
+dp = [[inf]*(w+1) for _ in range(n+1)]
+dp[0][0] = 0
+
+for i in range(1, n+1):
+    in_data = list(input().split())
+    m = int(in_data.pop(0))
+    """
+    袋iの文字列を使用しないときの遷移
+    """
+    for j in range(w+1):
+        dp[i][j] = dp[i-1][j]
+    """
+    袋iの文字列を使用するときの遷移
+    """
+    for s in in_data:
+        for j in range(w+1):
+            if j - len(s) >= 0 and t[j-len(s):j] == list(s):
+                dp[i][j] = min(dp[i-1][j-len(s)]+1, dp[i][j])
+
+if dp[n][w] == inf:
+    print(-1)
+else:
+    print(dp[n][w])
+
+#for dpi in dp:
+#    print(dpi)
+#print("--------------")
+
+
+"""
+code of contest
+passed test case
+
+t = list(input())
 t = ["*"] + t
 n = int(input())
 inf = 999
@@ -32,3 +73,4 @@ if dp[n][len(t)-1] == inf:
     print(-1)
 else:
     print(dp[n][len(t)-1])
+"""
