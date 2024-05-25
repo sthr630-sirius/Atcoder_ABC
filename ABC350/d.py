@@ -1,5 +1,13 @@
 from collections import deque
 
+def count_edge(g, connected_v):
+    edge = 0
+
+    for vi in connected_v:
+        edge += len(g[vi])
+
+    return edge//2
+
 n, m = map(int, input().split())
 g = [[] for _ in range(n)]
 for i in range(m):
@@ -16,13 +24,14 @@ nxt_vertices = deque()
 ans = 0
 
 for i in range(n):
+    connected_v = []
+    v = 1
+    e = 0
     if not is_visited[i]:
-        v = 1
-        e = 0
-
         nxt_v = i
         nxt_vertices.append(nxt_v)
         is_visited[nxt_v] = True
+        connected_v.append(i)
 
         while nxt_vertices:
             now_v = nxt_vertices.popleft()
@@ -30,13 +39,11 @@ for i in range(n):
                 if not is_visited[nxt_v]:
                     nxt_vertices.append(nxt_v)
                     is_visited[nxt_v] = True
+                    connected_v.append(nxt_v)
 
-                    v += 1
-                    e += 1
+        v = len(connected_v)
+        e = count_edge(g, connected_v)
 
-        #print(v, e)
-        if v >= 3:
-            ans += (v * (v-1)//2 - e)
+        ans += (v * (v-1)//2 - e)
 
-#print(is_visited)
 print(ans)
