@@ -40,7 +40,10 @@
             "problemMatcher": [
                 "$gcc"
             ],
-            "group": "build",
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
             "detail": "デバッガーによって生成されたタスク。"
         }
     ],
