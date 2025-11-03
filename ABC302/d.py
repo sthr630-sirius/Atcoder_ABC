@@ -31,7 +31,7 @@ ans = -1
 for i in range(n):
     lower_idx = lower_bound(b, a[i]-d)
     upper_idx = upper_bound(b, a[i]+d)
-    if lower_idx < n and upper_idx > -1 and lower_idx <= upper_idx:
+    if lower_idx <= upper_idx:
         ans = max(ans, a[i]+b[upper_idx])
 
 print(ans)
