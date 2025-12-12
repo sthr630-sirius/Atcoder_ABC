@@ -2,29 +2,6 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc.exe アクティブなファイルのビルド",
-            "command": "C:\\Users\\sizum\\mingw64\\bin\\gcc.exe",
-            "args": [
-                "-fdiagnostics-color=always",
-                "-g",
-                "${file}",
-                "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
-            ],
-            "options": {
-                "cwd": "${fileDirname}"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "detail": "デバッガーによって生成されたタスク。"
-        },
-        {
-            "type": "cppbuild",
             "label": "C/C++: g++.exe アクティブなファイルのビルド",
             "command": "C:\\Users\\sizum\\mingw64\\bin\\g++.exe",
             "args": [
@@ -41,7 +18,7 @@
                 "$gcc"
             ],
             "group": {
-                "kind": "test",
+                "kind": "build",
                 "isDefault": true
             },
             "detail": "デバッガーによって生成されたタスク。"
