@@ -46,7 +46,7 @@ int main(){
     int u, v;
     cin >> n >> m;
     vector<set<int>> g(n);
-    vector<int> a(n), b(n);
+    vector<int> a(m), b(m);
     vector<int> parent(n, -1);
     vector<bool> is_visited(n, false);
     vector<bool> go_to(n, false);
