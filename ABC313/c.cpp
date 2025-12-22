@@ -24,12 +24,6 @@ int main(){
     for(int i=0; i<n; i++) ans += abs(a[i]-b[i]);
     ans = ans / 2;
 
-    for(auto p:a) cout << p << " ";
-    cout << endl;
-
-    for(auto p:b) cout << p << " ";
-    cout << endl;
-
     cout << ans << endl;
 
     return 0;
