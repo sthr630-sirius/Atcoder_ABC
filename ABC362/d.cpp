@@ -32,16 +32,12 @@ int main(){
         
         if(is_visited[now_v]) continue;
         is_visited[now_v] = true;
-        //cout << "now_v: " << now_v+1 << endl;
         
         for(auto [next_v, e_weight]:g[now_v]){
             if(is_visited[next_v]) continue;
             sum_weight[next_v] = min(sum_weight[next_v], sum_weight[now_v] + e_weight + v_weight[next_v]);
             next_v_que.push({sum_weight[next_v], next_v});
         }
-
-        //for(auto w:sum_weight) cout << w << " ";
-        //cout << endl;
     }
 
     for(int i=1; i<n; i++) cout << sum_weight[i] << " ";
