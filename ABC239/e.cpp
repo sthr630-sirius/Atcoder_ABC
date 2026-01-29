@@ -2,13 +2,12 @@
 #include<vector>
 #include<algorithm>
 using namespace std;
-void dfs(int now_v, vector<vector<int>>& g, vector<bool>& is_visited, vector<int>& parent, vector<int>& child_cnt, vector<vector<int>>& subtree, vector<int>& x, int k_max){
+void dfs(int now_v, vector<vector<int>>& g, vector<bool>& is_visited, vector<int>& parent, vector<vector<int>>& subtree, vector<int>& x, int k_max){
     is_visited[now_v] = true;
     for(auto next_v:g[now_v]){
         if(is_visited[next_v]) continue;
-        child_cnt[now_v]++;
         parent[next_v] = now_v;
-        dfs(next_v, g, is_visited, parent, child_cnt, subtree, x, k_max);
+        dfs(next_v, g, is_visited, parent, subtree, x, k_max);
     }
 
     subtree[now_v].push_back(x[now_v]);
@@ -45,11 +44,11 @@ int main(){
         query.push_back({v, k});
     }
 
-    vector<int> parent(n, -1), child_cnt(n, 0);
+    vector<int> parent(n, -1);
     vector<bool> is_visited(n, false);
     vector<vector<int>> subtree(n);
 
-    dfs(0, g, is_visited, parent, child_cnt, subtree, x, k_max);
+    dfs(0, g, is_visited, parent, subtree, x, k_max);
 
     for(auto [v, k]:query) cout << subtree[v][k-1] << endl;
 
