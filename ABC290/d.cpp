@@ -20,7 +20,7 @@ int main(){
 
         group = (k-1)/(n/g);
         block = (k-1)%(n/g);
-        ans = group + (long long)(block*d)%n; 
+        ans = group + (long long)block*d%n;
 
         cout << ans << endl;
 
