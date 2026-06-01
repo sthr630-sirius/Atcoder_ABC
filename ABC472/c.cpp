@@ -24,8 +24,7 @@ int main(){
         is_ok = true;
         if(target_str.size() == n){
             for(int j=0; j<n; j++){
-                if(table[j][int(s[i][j]-'a')]) continue;
-                else is_ok = false;
+                if(!table[j][int(target_str[j]-'a')]) is_ok = false;
             }
         }else{
             is_ok = false;
