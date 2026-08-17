@@ -16,6 +16,7 @@ int main(){
         for(int j=0; j<26; j++){
             idx = s[i]-'a';
             dp[i][idx] = (dp[i][idx] + dp[i-1][j])%CONST;
+            
             if(j == idx) dp[i][j] = (dp[i][j] + 1)%CONST;
             else dp[i][j] = dp[i-1][j];
         }
