@@ -45,6 +45,7 @@ int main(){
         if(is_atcoder_rico(a, l)) ans.push_back(l);
     }
 
+    sort(ans.begin(), ans.end());
     for(auto ansi:ans) cout << ansi << " ";
     cout << endl;
 
